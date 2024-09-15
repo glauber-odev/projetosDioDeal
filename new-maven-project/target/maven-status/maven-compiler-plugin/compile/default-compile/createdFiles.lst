@@ -1,0 +1,5 @@
+br\com\dio\new_maven_project\App.class
+br\com\dio\new_maven_project\mapper\UserMapperImpl.class
+br\com\dio\new_maven_project\model\UserModel.class
+br\com\dio\new_maven_project\dto\UserDTO.class
+br\com\dio\new_maven_project\mapper\UserMapper.class
