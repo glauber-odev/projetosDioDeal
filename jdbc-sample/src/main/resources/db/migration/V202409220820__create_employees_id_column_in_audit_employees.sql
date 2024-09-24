@@ -1,0 +1,1 @@
+ALTER TABLE audit_employees ADD COLUMN employees_id BIGINT NOT NULL AFTER id;

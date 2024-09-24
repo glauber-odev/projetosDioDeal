@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\Users\kronu\OneDrive\Documentos\dev\dio\DealSpringBooteAngular\projetosDioDeal\second-worskpace\jdbc-sample"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(8.10.1))"/>
+		<item key="gradle_user_home" value="C:\Users\kronu\.gradle"/>
+		<section name="ProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="250"/>
+			<item key="DIALOG_Y_ORIGIN" value="-32"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="738"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>
