@@ -9,7 +9,7 @@
     <script src="src/Components/TituloDinamico.js" defer></script>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="card">
             <div class="card__left">
                 <span>By Gláuber Vieira</span>
@@ -20,12 +20,25 @@
                 <img src="assets/asset-vader.jpg" alt="Imagem do Darth Vader" height="200px">
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <card-news></card-news>
-    <card-news></card-news>
-    <card-news></card-news>
-    <titulo-dinamico texto="Titulo"></titulo-dinamico>
-    <titulo-dinamico texto="Titulo Randômico"></titulo-dinamico>
+    <card-news
+        autor="Gláuber"
+        title="Darth Vader Contrata"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+        link-url="www.google.com"
+        photo="assets/asset-vader.jpg"
+    ></card-news>
+
+    <card-news
+        autor="Gláuber"
+        title="Yoda convece republica a utilizar componentes"
+        content="Yoda se pronuncia e choca república."
+        link-url="www.google.com"
+        photo=""
+    ></card-news>
+
+    <!-- <titulo-dinamico texto="Titulo"></titulo-dinamico>
+    <titulo-dinamico texto="Titulo Randômico"></titulo-dinamico> -->
 </body>
 </html>
