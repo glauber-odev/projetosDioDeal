@@ -1,0 +1,11 @@
+<app-comp-atributos>
+    <h2>Olá</h2>
+    <p>estou vindo do app.component</p>
+</app-comp-atributos>
+<app-card *ngIf="isAliveCard else cardTemplate"></app-card>
+
+<ng-template #cardTemplate>
+    <p>Olá, sou um bloco secreto</p>
+</ng-template>
+
+<router-outlet />
