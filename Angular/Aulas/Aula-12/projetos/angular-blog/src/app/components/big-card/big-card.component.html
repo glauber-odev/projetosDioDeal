@@ -1,0 +1,16 @@
+<div class="container__big-card">
+    <!-- mockado -->
+    <div class="big-card__photo">
+        <img src="{{ photoCover }}" alt="Foto do homem de ferro">
+    </div>
+    <div class="big-card__title">
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
+    </div>
+    <div class="big-card_description">
+        <p>
+            <a [routerLink]="['content', id]" >
+                {{ cardDescrition }}
+            </a>
+        </p>
+    </div>
+</div>
