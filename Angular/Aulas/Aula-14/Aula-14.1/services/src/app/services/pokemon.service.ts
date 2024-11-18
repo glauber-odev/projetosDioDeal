@@ -15,6 +15,7 @@ export class PokemonService {
   constructor(
     private http: HttpClient
   ) { 
+    // this.baseURL = environment.pokeApi;
     this.baseURL = environment.pokeApi;
   }
 
